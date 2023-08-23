@@ -10,6 +10,7 @@
     font-family: "SherWood";
     text-align: center;
     color: var(--white);
+    font-weight: normal;
 }
 
 @font-face {
@@ -56,9 +57,7 @@
 }
 
 h1{
-    font-family: "SherWood";
     font-size: 28px;
-    font-weight: normal;
     color: #F5F6F7;
     text-shadow: #ffcc00 1px 0 10px;
 }
@@ -70,6 +69,7 @@ h1{
     font-size: 22px;
     text-transform: uppercase;
     opacity: .5;
+    cursor: text;
 }
 
 .nameUserInput[type="text"]:focus{
@@ -78,6 +78,17 @@ h1{
 }
 
 .btn{
-    background: red;
+    background: #4C3B14;
+    border: none;
+    width: 120px;
     padding: 8px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.btn:hover{
+    -webkit-filter: drop-shadow(0 0 0.75rem rgba(254,55,72,1));
+    filter: drop-shadow(0 0 12px var(--white));
+    opacity: 1;
 }
