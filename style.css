@@ -1,9 +1,21 @@
+:root{
+    --white: #F5F6F7;
+    --gold: #ffcc00;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "SherWood";
+    text-align: center;
+    color: var(--white);
 }
 
+@font-face {
+    font-family: "SherWood";
+    src: url("./fonts/SherwoodRegular.ttf");
+}
 
 .all-container{
     background: rgb(14,9,9);
@@ -12,16 +24,19 @@
     min-height: 100vh;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1.3em;
 }
 
 .mainImg{
     width: 400px;
     opacity: .5;
 	animation: rotateAnimation 15s ease;
+    transition: all ease .5s;
 }
-
+/*
 @keyframes rotateAnimation {
 
 	from {
@@ -32,4 +47,31 @@
         transform: rotateY(360deg);
         opacity: 1;
     }
+}*/
+
+.mainImg:hover{
+    -webkit-filter: drop-shadow(0 0 0.75rem rgba(254,55,72,1));
+    filter: drop-shadow(0 0 0.75rem rgba(254,55,72,1));
+    opacity: 1;
+}
+
+h1{
+    font-family: "SherWood";
+    font-size: 28px;
+    font-weight: normal;
+    color: #F5F6F7;
+    text-shadow: #ffcc00 1px 0 10px;
+}
+
+.nameUserInput{
+    border: none;
+    border-bottom: 2px solid var(--white);
+    background: transparent;
+    font-size: 22px;
+    opacity: .5;
+}
+
+.nameUserInput[type="text"]:focus{
+    outline: none;
+    opacity: 1;
 }

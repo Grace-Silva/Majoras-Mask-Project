@@ -12,4 +12,4 @@ Pone en práctica conceptos como animaciones css avanzadas, manipulación del do
 ![mascara de majora](img/reference.png)
 ![vendedor de mascaras felices](img/reference2.png)
 
-
+Autor: Grace Silva [Ir al Sitio](https://grace-silva.github.io/Majoras-Mask-Project/)
