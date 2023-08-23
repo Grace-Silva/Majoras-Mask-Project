@@ -10,6 +10,6 @@ Pone en práctica conceptos como animaciones css avanzadas, manipulación del do
 ## Referencia
 
 ![mascara de majora](img/reference.png)
-![vendedor de mascaras felices](img/reference%202.png)
+![vendedor de mascaras felices](img/reference2.png)
 
 
