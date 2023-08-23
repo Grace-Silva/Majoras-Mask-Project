@@ -68,10 +68,16 @@ h1{
     border-bottom: 2px solid var(--white);
     background: transparent;
     font-size: 22px;
+    text-transform: uppercase;
     opacity: .5;
 }
 
 .nameUserInput[type="text"]:focus{
     outline: none;
     opacity: 1;
+}
+
+.btn{
+    background: red;
+    padding: 8px;
 }
