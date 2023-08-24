@@ -53,10 +53,10 @@ html{
 .mainImg{
     width: 400px;
     opacity: .4;
-	animation: rotateAnimation 15s ease;
+	animation: rotateAnimation 5s ease;
     transition: ease-in-out .5s;
 }
-/*
+
 @keyframes rotateAnimation {
 
 	from {
@@ -68,7 +68,7 @@ html{
         opacity: 1;
     }
 }
-*/
+
 .mainImg:hover{
     -webkit-filter: drop-shadow(0 0 0.75rem rgba(254,55,72,1));
     filter: drop-shadow(0 0 0.75rem rgba(254,55,72,1));
@@ -80,6 +80,7 @@ h1{
     color: #F5F6F7;
     text-shadow: #ffcc00 1px 0 10px;
     transition: all ease .5s;
+    text-transform: uppercase;
 }
 
 .nameUserInput{

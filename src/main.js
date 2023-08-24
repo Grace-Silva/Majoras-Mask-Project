@@ -21,7 +21,9 @@ async function showUserName(){
     
     document.getElementById("maskSeller").style.display="block";
     titleElement.textContent = nameElement.value + ", You have had a terrible fate, haven't you?";
+
     document.getElementById("mainTitle").style.display="block";
+    document.getElementById("mainTitle").style.textTransform="uppercase";
 
 
 }
