@@ -25,7 +25,9 @@ async function showUserName(){
     document.getElementById("mainTitle").style.display="block";
     document.getElementById("mainTitle").style.textTransform="uppercase";
 
-
+    let elementoAudio = document.getElementById("audio");
+    elementoAudio.play();
+    elementoAudio.volume = 0.2;
 }
 
 /** You've met a terrible fate, haven't you? */
